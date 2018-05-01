@@ -5,15 +5,6 @@
     "bundleId": "com.github.atom",
     "lastModified": "2018-05-01T14:53:28Z", 
     "currentVersion": "1.26.1",
-    "requirements": [
-        {
-            "operator": "is", 
-            "and": true, 
-            "type": "recon", 
-            "name": "Application Bundle ID", 
-            "value": "com.github.atom"
-        }
-    ], 
     "patches": [
         {
             "releaseDate": "2018-04-30T21:34:16Z", 
