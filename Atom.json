@@ -1,6 +1,10 @@
 {
-    "publisher": "Atom", 
-    "currentVersion": "1.26.1", 
+    "name": "Atom", 
+    "publisher": "GitHub",
+    "appName": "Atom.app", 
+    "bundleId": "com.github.atom",
+    "lastModified": "2018-05-01T14:53:28Z", 
+    "currentVersion": "1.26.1",
     "requirements": [
         {
             "operator": "is", 
@@ -10,9 +14,6 @@
             "value": "com.github.atom"
         }
     ], 
-    "name": "Atom", 
-    "appName": "Atom.app", 
-    "lastModified": "2018-05-01T14:53:28Z", 
     "patches": [
         {
             "releaseDate": "2018-04-30T21:34:16Z", 
@@ -59,6 +60,21 @@
         }
     ], 
     "extensionAttributes": [], 
+    "requirements": [
+        {
+            "name": "Atom",
+            "operator": "is not",
+            "value": "Not Installed",
+            "type": "extensionAttribute",
+            "and": true
+        },
+        {
+            "name": "Atom",
+            "operator": "is not",
+            "value": "",
+            "type": "extensionAttribute",
+            "and": true
+        }
+    ],
     "id": "Atom", 
-    "bundleId": "com.github.atom"
 }
