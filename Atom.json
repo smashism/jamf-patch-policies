@@ -1,7 +1,7 @@
 {
     "id": "Atom",
     "name": "Atom",
-    "publisher": "Atom",
+    "publisher": "GitHub",
     "appName": "Atom.app",
     "bundleId": "com.github.atom",
     "lastModified": "2018-05-01T20:04:53Z",
