@@ -1,0 +1,451 @@
+{
+    "id": "GitHubDesktop",
+    "name": "GitHub Desktop",
+    "publisher": "GitHub",
+    "appName": "GitHub Desktop.app",
+    "bundleId": "com.github.GitHubClient",
+    "lastModified": "2018-05-02T20:12:28Z",
+    "currentVersion": "1.1.1",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.github.GitHubClient",
+            "type": "recon",
+            "and": true
+        }
+    ],
+    "patches": [
+        {
+            "version": "1.1.1",
+            "releaseDate": "2018-03-26T17:33:12Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.1.1",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.1.1",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.1.0",
+            "releaseDate": "2018-02-26T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.1.0",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.1.0",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.13",
+            "releaseDate": "2018-01-29T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.13",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.13",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.12",
+            "releaseDate": "2018-01-08T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.12",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.12",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.11",
+            "releaseDate": "2017-12-13T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.11",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.11",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.10",
+            "releaseDate": "2017-12-05T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.10",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.10",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.9",
+            "releaseDate": "2017-11-16T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.9",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.9",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.8",
+            "releaseDate": "2017-11-07T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.8",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.8",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.7",
+            "releaseDate": "2017-11-06T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.7",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.7",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        },
+        {
+            "version": "1.0.6",
+            "releaseDate": "2017-10-27T00:00:00Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9.0",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.GitHubClient",
+                    "appName": "GitHub Desktop.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "GitHub Desktop",
+                    "version": "1.0.6",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.GitHubClient",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.0.6",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9.0",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": []
+}
