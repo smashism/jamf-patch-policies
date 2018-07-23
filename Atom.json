@@ -4,8 +4,8 @@
     "publisher": "GitHub",
     "appName": "Atom.app",
     "bundleId": "com.github.atom",
-    "lastModified": "2018-07-05T20:04:53Z",
-    "currentVersion": "1.28.1",
+    "lastModified": "2018-07-13T20:04:53Z",
+    "currentVersion": "1.28.2",
     "requirements": [
         {
             "name": "Application Bundle ID",
@@ -16,6 +16,39 @@
         }
     ],
     "patches": [
+        {
+            "version": "1.28.2",
+            "releaseDate": "2018-07-13T20:04:53Z",
+            "standalone": true,
+            "minimumOperatingSystem": "10.8",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.github.atom",
+                    "appName": "Atom.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Atom",
+                    "version": "1.28.2",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.github.atom",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "1.28.2",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
         {
             "version": "1.28.1",
             "releaseDate": "2018-07-05T21:34:16Z",
